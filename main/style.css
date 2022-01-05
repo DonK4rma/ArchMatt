@@ -1,0 +1,237 @@
+  *{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.div1{
+  background: #1d2026;
+  min-height: 10vh;
+  color: #fff;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+nav .logo{
+  margin-right: 20px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff
+}
+.div2{
+  background: #1d2026;
+  min-height: 1vh;
+  color: #fff;
+  position: relative;
+}
+.imgtest{
+  object-fit: none;
+  max-height:700px;
+  width: 100%;
+}
+.div2 .btn1 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.div2 .btn2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.div2 .Title7 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.div2 .btn1:hover {
+  background-color: gray;
+}
+.div2 .btn2:hover {
+  background-color: black;
+}
+.div3{
+  background: #1d2026;
+  min-height: 20vh;
+  color: #fff;
+  position: relative;
+}
+.div3 .Title1{
+  padding-left: 80px;
+  padding-top: 100px;
+}
+.div3 .Title2{
+  padding-left: 80px;
+  padding-top: 10px;
+}
+.div3 .paragraph1{
+  padding-left: 80px;
+  padding-top: 10px;
+  font-size: 18px;
+  color: gray;
+}
+.div4{
+  background: #000E1D;
+  padding-bottom: 40px;
+  border-radius: 0px 0px 35px 35px;
+}
+.imgtest2{
+  position: absolute;
+  object-fit: none;
+  height: 200px;
+  align-items: center;
+  top: 80px;
+  right: 13px;
+  border-radius: 12px;
+}
+.div5{
+  background: #1d2026;
+  min-height: 20vh;
+  color: #fff;
+  position: relative;
+}
+.div5 .Title3{
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 10px;
+}
+.div5 .Title4{
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 10px;
+}
+.div5 .paragraph2{
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 10px;
+  font-size: 18px;
+  color: gray;
+}
+.div6{
+  background: rgb(170,131,0);
+  background: linear-gradient(90deg, rgba(170,131,0,1) 0%, rgba(168,90,0,1) 48%, rgba(172,0,0,1) 100%);
+  padding-top: 30px;
+  padding-bottom: 80px;
+  border-radius: 35px 35px 35px 35px;
+}
+.imgtest3{
+  position: absolute;
+  object-fit: none;
+  height: 200px;
+  align-items: center;
+  top: 30px;
+  border-radius: 12px;
+}
+.div7{
+  background: rgb(29,32,38);
+  background: linear-gradient(180deg, rgba(29,32,38,1) 0%, rgba(0,0,0,1) 100%);
+  min-height: 90vh;
+  color: #fff;
+  position: relative;
+}
+.div7 .imgtest4{
+  padding-top: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div7 .Title5{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 25px;
+}
+.div7 .btn3{
+  position: absolute;
+  top: 370px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.div7 .imgtest5{
+  padding-top: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div7 .Title6{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 25px;
+}
+.div7 .btn4{
+  position: absolute;
+  top: 770px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.div7 .btn3:hover {
+  background-color: gray;
+}
+.div7 .btn4:hover {
+  background-color: gray;
+}
+.footer{
+  background: black;
+  min-height: 90px;
+  text-align: center;
+}
+.footer h1{
+  color: white;
+  padding-top: 26px;
+}
