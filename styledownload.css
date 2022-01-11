@@ -1,0 +1,138 @@
+  *{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.div1{
+  background: #1d2026;
+  min-height: 10vh;
+  color: #fff;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 10px 8%;
+}
+nav .logo{
+  margin-right: 20px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff
+}
+.div8{
+  position: absolute;
+  width: 100%;
+  background-color: ##e7b200
+}
+.div2{
+  background: #C37600;
+  min-height: 1vh;
+  color: #fff;
+  position: relative;
+}
+.div3{
+  background: black;
+  min-height: 10vh;
+  margin: 30px;
+  margin-right: 55%;
+}
+.div4{
+  background: #424242;
+  min-height: 150px;
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border-radius: 10px;
+}
+.div5{
+  background: #2A2A2A;
+  min-height: 60px;
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border-radius: 10px 10px 0px 0px ;
+}
+.div5 .Title1{
+  font-size: 32px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+.div4 .btn5{
+  background: #424242;
+  border: none;
+  padding-right: px;
+  padding-bottom: 40px;
+}
+.div4 .btn5:hover {
+  background-color: #5B5B5B;
+}
+.div4 .imgtest6{
+  position: absolute;
+  margin-left: 0;
+  padding-top: 10px;
+}
+.div4 .paragraph3{
+  position: absolute;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 60px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.div4 .paragraph3:hover {
+  position: absolute;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 60px;
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+}
+.div4 .paragraph4{
+  position: absolute;
+  padding-top: 36px;
+  padding-left: 60px;
+  color: gray;
+  text-decoration: none;
+}
+.div4 .paragraph5{
+  position: absolute;
+  padding-top: 10px;
+  padding-left:442px;
+  color: white;
+  text-decoration: none;
+}
+.div9{
+  background: rgb(231,178,0);
+  background: linear-gradient(180deg, rgba(231,178,0,1) 0%, rgba(157,84,0,1) 48%, rgba(0,0,0,1) 100%);
+  padding-bottom: 100%;
+}
+.footer{
+  background: black;
+  min-height: 90px;
+  text-align: center;
+}
+.footer h1{
+  color: white;
+  padding-top: 26px;
+}
